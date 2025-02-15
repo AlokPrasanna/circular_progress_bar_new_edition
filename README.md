@@ -1,6 +1,6 @@
 # Circular Progress Bar New Edition with Animation
 
-### This is Circular Progress Bar component new version created by React , JS , SCSS and HTML.
+### This is Circular Progress Bar component new version created by React , JS , TypeScripts , SCSS and HTML.
 
 ### Description
 #### This circular progress bar starts from a starting value (e.g., 0) and fills the red area up to the low value (e.g., 30) first. After reaching the low value, it continues to fill the green area until it reaches the end value (e.g., 100).
