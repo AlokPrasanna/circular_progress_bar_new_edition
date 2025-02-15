@@ -1,0 +1,93 @@
+import "./App.css";
+import CircularProgressBar from "./CirclularProgressBar/CircularProgressBar";
+
+function App() {
+  return (
+    <>
+      <div className="app">
+        <CircularProgressBar
+          StartValue={0}
+          EndValue={100}
+          LowValue={30}
+          CurrentValue={100}
+          Units="%"
+          InnerColor="#F78F5E"
+          TextColor="#1f2937"
+          Title="Progress"
+        />
+        <CircularProgressBar
+          StartValue={0}
+          EndValue={100}
+          LowValue={30}
+          CurrentValue={60}
+          Units="%"
+          InnerColor="#F78F5E"
+          TextColor="#1f2937"
+          Title="Progress"
+        />
+        <CircularProgressBar
+          StartValue={0}
+          EndValue={100}
+          LowValue={30}
+          CurrentValue={80}
+          Units="%"
+          InnerColor="#F78F5E"
+          TextColor="#1f2937"
+          Title="Progress"
+        />
+        <CircularProgressBar
+          StartValue={0}
+          EndValue={100}
+          LowValue={30}
+          CurrentValue={50}
+          Units="%"
+          InnerColor="#F78F5E"
+          TextColor="#1f2937"
+          Title="Progress"
+        />
+        <CircularProgressBar
+          StartValue={0}
+          EndValue={100}
+          LowValue={30}
+          CurrentValue={40}
+          Units="%"
+          InnerColor="#F78F5E"
+          TextColor="#1f2937"
+          Title="Progress"
+        />
+        <CircularProgressBar
+          StartValue={0}
+          EndValue={100}
+          LowValue={30}
+          CurrentValue={31}
+          Units="%"
+          InnerColor="#F78F5E"
+          TextColor="#1f2937"
+          Title="Progress"
+        />
+        <CircularProgressBar
+          StartValue={0}
+          EndValue={100}
+          LowValue={30}
+          CurrentValue={30}
+          Units="%"
+          InnerColor="#F78F5E"
+          TextColor="#1f2937"
+          Title="Progress"
+        />
+        <CircularProgressBar
+          StartValue={0}
+          EndValue={100}
+          LowValue={30}
+          CurrentValue={15}
+          Units="%"
+          InnerColor="#F78F5E"
+          TextColor="#1f2937"
+          Title="Progress"
+        />
+      </div>
+    </>
+  );
+}
+
+export default App;
